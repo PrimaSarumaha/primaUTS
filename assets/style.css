@@ -275,7 +275,20 @@ footer {
   width: 60px;
 }
 
+h1 {
+  color: white;
+}
+
+.tentang p {
+  color: white;
+}
+
 #copyright {
   text-align: center;
   padding: 10px;
+  color: white;
+}
+
+.custom-navbar {
+  background-color: rgb(34, 33, 33);
 }
