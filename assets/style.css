@@ -1,0 +1,281 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+.slider {
+  display: flex;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 65%;
+}
+
+.slides {
+  display: flex;
+  width: 55rem;
+  overflow: hidden;
+}
+
+.slides img {
+  border-radius: 30px;
+}
+
+.slide {
+  width: 100%;
+  transition: 1s;
+}
+
+.choose_1:checked ~ .slides > .s1 {
+  margin-left: 0rem;
+}
+
+.choose_2:checked ~ .slides > .s2 {
+  margin-left: -38.9rem;
+}
+
+.choose_3:checked ~ .slides > .s3 {
+  margin-left: -77.9rem;
+}
+
+.choose_4:checked ~ .slides > .s4 {
+  margin-left: -116.85rem;
+}
+
+.choose_5:checked ~ .slides > .s5 {
+  margin-left: -155.8rem;
+}
+
+.choose_6:checked ~ .slides > .s6 {
+  margin-left: -194.75rem;
+}
+
+body {
+  background-color: #0c0727;
+}
+
+.center {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.slider h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 14%;
+  padding-left: 5%;
+  color: #06d85f;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: rgb(8, 8, 61);
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: rgb(48, 137, 149);
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #13beb9;
+}
+
+.popup .close:hover {
+  color: #06d85f;
+}
+
+.content {
+  max-height: 30%;
+  width: 50%;
+}
+
+.populer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 100%;
+}
+
+.populer img {
+  border-radius: 10px;
+}
+
+.harga {
+  padding-left: 40%;
+  color: #06d85f;
+}
+
+.link a {
+  color: aqua;
+}
+
+.link a:hover {
+  color: #06d85f;
+}
+
+.pesan img {
+  width: 30px;
+}
+
+.pesan {
+  background-color: #06d85f;
+  padding: 1%;
+  border-radius: 5px;
+  color: black;
+}
+
+.pesan:hover {
+  background-color: aqua;
+}
+
+.title-p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.tentang {
+  display: grid;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 15pt;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card {
+  background-color: #21184f;
+  padding: 5%;
+  border-radius: 20px;
+  box-shadow: 20px 20px rgb(255, 255, 255);
+}
+
+.card h1 {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  display: grid;
+  justify-content: center;
+  background-color: #136434;
+  margin-top: 10%;
+  padding: 2%;
+}
+
+.sosmed img {
+  width: 60px;
+}
+
+#copyright {
+  text-align: center;
+  padding: 10px;
+}
